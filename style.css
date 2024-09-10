@@ -1,0 +1,102 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: 'Operator Mono SSm Book','HangeulNotesPersonalUse-x3KK0'; /* Updated to previous font */
+    font-size: 12pt; /* Updated to previous font size */
+    min-height: 0;
+}
+
+/* Tooltip settings */
+tooltip {
+    background: rgba(30, 30, 40, 0.8); /* Dark background with transparency */
+    border-radius: 15px; /* Rounded corners */
+    border-width: 2px; /* Border width */
+    border-style: solid; /* Border style */
+    border-color: #FFC0CB; /* Pink border color to match the image */
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0); /* Updated to previous background color */
+    color: #E6E6FA; /* Updated to previous text color */
+}
+
+#workspaces {
+    background-color: rgba(51, 46, 65, 0.8); /* Updated to previous background color */
+    margin: 5px;
+    margin-left: 10px;
+    border-radius: 15px; /* Updated to previous border-radius */
+}
+
+#workspaces button {
+    padding: 5px 10px;
+    color: #E6E6FA; /* Updated to previous button text color */
+}
+
+#workspaces button.focused {
+    color: #FF69B4; /* Updated to previous focused button text color */
+    background-color: rgba(51, 46, 65, 0.8); /* Updated to previous background color */
+    border-radius: 15px; /* Updated to previous border-radius */
+}
+
+#workspaces button:hover {
+    background-color: rgba(51, 46, 65, 0.8); /* Updated to previous background color */
+    color: #FF69B4; /* Updated to previous hover text color */
+    border-radius: 15px; /* Updated to previous border-radius */
+}
+
+#custom-date, #clock, #battery, #pulseaudio, #network {
+    background-color: rgba(51, 46, 65, 0.8); /* Updated to previous background color */
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+
+#custom-date {
+    color: #FF69B4; /* Updated to previous color */
+}
+
+#custom-power {
+    color: #E6E6FA; /* Updated to previous text color */
+    background-color: #db4b4b; /* Retained previous color */
+    border-radius: 15px; /* Updated to previous border-radius */
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    padding: 5px 10px;
+}
+
+#clock {
+    color: #b48ead; /* Retained previous color */
+    border-radius: 15px; /* All corners rounded */
+    margin-right: 10px;
+}
+
+#battery {
+    color: #9ece6a; /* Retained previous color */
+    border-radius: 15px 0px 0px 15px;
+}
+
+#battery.charging {
+    color: #9ece6a; /* Retained previous color */
+    border-radius: 15px 15px 15px 15px;
+}
+
+#battery.warning:not(.charging),
+    #battery.critical:not(.charging) {
+    background-color: #f7768e; /* Retained previous color */
+    color: #24283b; /* Updated to match previous color scheme */
+    border-radius: 15px; /* Updated to previous border-radius */
+}
+
+#network {
+    color: #f7768e; /* Retained previous color */
+    border-radius: 15px 15px 15px 15px; /* Updated to previous border-radius */
+}
+
+#pulseaudio {
+    color: #e0af68; /* Retained previous color */
+    border-radius: 15px 15px 15px 15px;
+}
+#pulseaudio.disabled {
+    border-radius: 15px 15px 15px 15px; /* Rounded corners at the bottom-right and top-right */
+}
