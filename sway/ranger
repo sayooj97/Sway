@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Ranger
+Comment=Terminal File Manager
+Exec=gnome-terminal -- -e ranger
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Utility;
