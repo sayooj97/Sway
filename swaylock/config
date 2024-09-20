@@ -1,0 +1,15 @@
+# swaylock configuration
+
+# Path to the background image
+image=/home/sayooj/Pictures/02.png
+
+# Use fill mode to cover the entire screen with the image
+image_fill=fill
+
+# Additional configurations (e.g., colors)
+ring-color=ffffff
+inside-color=00000000
+text-color=ffffff
+line-color=ffffff
+key-hl-color=ffffff
+bs-hl-color=ff0000
